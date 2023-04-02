@@ -1,0 +1,42 @@
+.borrowinput {
+  position: fixed;
+  right: 3%;
+  width: 20%;
+  height: 90vh;
+  border: 1px solid blueviolet;
+}
+table {
+  width: 70%;
+  position: fixed;
+  left: 2%;
+  border: 1px solid black;
+}
+.booklist {
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: start;
+}
+input,
+select {
+  font-size: larger;
+  width: 80%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.label {
+  font-size: larger;
+  width: 80%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+button.label {
+  font-size: larger;
+  width: 84%;
+  background-color: greenyellow;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+}

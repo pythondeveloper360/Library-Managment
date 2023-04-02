@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Library Managment</title>
+  </head>
+  <body>
+    <a  href= '/returned.html' >Returned Books</a>
+    <table id = 'booklist'>
+      <script>
+        lib.renderBookList()
+      </script>
+    </table>
+    <div class="borrowinput">
+      <p class="label"><strong> Book ID</strong></p>
+      <input id="idInput" placeholder="Book ID" />
+      <p class="label"><strong>Book Name</strong></p>
+      <input id="bookName" placeholder="Book Name" />
+      <p class="label"><strong>Borrower Name</strong></p>
+      <input id="borrowername" placeholder="Borrower Name" />
+      <p class="label"><strong>Borrower Role</strong></p>
+      <select id="role">
+        <option>Teacher</option>
+        <option>Student</option>
+      </select>
+      <p class="label">Class-Section(if any)</p>
+      <input id="cls" placeholder="Class-Section" />
+      <button class="label" onclick="issue()">Issue</button>
+    </div>
+  </body>
+</html>
